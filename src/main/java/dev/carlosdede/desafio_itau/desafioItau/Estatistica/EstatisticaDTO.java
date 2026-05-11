@@ -1,7 +1,8 @@
 package dev.carlosdede.desafio_itau.desafioItau.Estatistica;
 
+import lombok.Data;
 import lombok.Getter;
-
+@Data
 @Getter
 public class EstatisticaDTO {
     private Long count;
