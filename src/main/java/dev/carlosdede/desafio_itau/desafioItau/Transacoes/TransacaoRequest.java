@@ -1,4 +1,4 @@
-package dev.carlosdede.desafio_itau.desafioItau;
+package dev.carlosdede.desafio_itau.desafioItau.Transacoes;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,9 +9,9 @@ import java.time.OffsetDateTime;
 
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class Transacao {
+@NoArgsConstructor
+public class TransacaoRequest {
     private BigDecimal valor;
     private OffsetDateTime dataHora;
 }

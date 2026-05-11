@@ -1,4 +1,4 @@
-package dev.carlosdede.desafio_itau.desafioItau;
+package dev.carlosdede.desafio_itau.desafioItau.Transacoes;
 
 
 import lombok.Data;
